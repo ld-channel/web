@@ -1,5 +1,96 @@
+
+
+
+
+
+
+/*Footer*/
+.footer main-footer {
+  margin: 10px;
+  width: 50px;
+  height: 300px;
+
+  
+}
+
+
+.main-footer {
+  padding: 32px 15px 15px 0px;
+  text-align: center;
+  height: 80px;
+}
+
+
+
+
+
+
+
+
+
+/*Ads1*/
+div.gallery_ads1 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery_ads1:hover {
+  border: 1px solid #777;
+}
+
+div.gallery_ads1 img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc_ads1 {
+  color: #fafafa;
+  padding: 15px;
+  text-align: center;
+  background: rgb(247, 78, 72);
+}
+
+
+
+
+
+
+
+
+
+/*Ads*/
+div.gallery_ads {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 250px;
+}
+
+div.gallery_ads:hover {
+  border: 1px solid #777;
+}
+
+div.gallery_ads img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc_ads {
+  color: #fafafa;
+  padding: 15px;
+  text-align: center;
+  background: rgb(247, 78, 72);
+}
+
+
+
+
+
+
 /*header Nav*/
-body {
+.body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,12 +141,13 @@ padding: 1px 1px 1px 1px;
 
 
 
-/*header images*/
+/*Videos images*/
 div.gallery {
+
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 310px;
+  width: 300px;
 }
 
 div.gallery:hover {
