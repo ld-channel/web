@@ -22,12 +22,12 @@ div.desc_ads1 {
   padding: 15px;
   text-align: center;
   background: rgb(247, 78, 72);
-  font: bold;
+
 }
 
 p::after {
   content: "ស្អាតដូចរូប💯💯💯អាចកម្មង់បានចា៎👏👏 098739148"; 
-
+  font-weight: bold;
 
 }
 
