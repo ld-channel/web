@@ -25,9 +25,9 @@ div.desc_ads1 {
 
 }
 
-.gallery_ads1 desc_ads1 ads_left_1::after {
+div.desc_ads1::after {
   content: "ស្អាតដូចរូប💯💯💯អាចកម្មង់បានចា៎👏👏 098739148"; 
-
+  font-weight: bold;
 }
 
 #ads_left {
@@ -72,7 +72,7 @@ div.desc_ads {
 
 div.desc_ads::after {
   content: "ស្អាតដូចរូប💯💯💯អាចកម្មង់បានចា៎👏👏 098739148"; 
-
+  font-weight: bold;
 }
 
 #ads_right {
