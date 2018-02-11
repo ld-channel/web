@@ -1,4 +1,4 @@
-/*Ads1*/
+/*Ads left*/
 div.gallery_ads1 {
   margin: 5px;
   border: 1px solid #ccc;
@@ -25,9 +25,8 @@ div.desc_ads1 {
 
 }
 
-p::after {
+.ads_left_1::after {
   content: "ស្អាតដូចរូប💯💯💯អាចកម្មង់បានចា៎👏👏 098739148"; 
-  font-weight: bold;
 
 }
 
@@ -41,6 +40,57 @@ p::after {
    height:300px;
   
 }
+
+
+
+
+
+
+/*Ads right*/
+div.gallery_ads {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 250px;
+}
+
+div.gallery_ads:hover {
+  border: 1px solid #777;
+}
+
+div.gallery_ads img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc_ads {
+  color: #fafafa;
+  padding: 15px;
+  text-align: center;
+  background: rgb(247, 78, 72);
+}
+
+.ads_right_1::after {
+  content: "ស្អាតដូចរូប💯💯💯អាចកម្មង់បានចា៎👏👏 098739148"; 
+
+}
+
+#ads_left {
+           
+  padding: 25px;
+  background: url(https://ld-channel.github.io/web/ads_img/t-shirt-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:248px;
+   height:300px;
+  
+}
+
+
+
+
+
+
 
 
 /*Footer*/
@@ -70,36 +120,6 @@ p::after {
 
 
 
-
-
-
-
-
-
-
-/*Ads*/
-div.gallery_ads {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: right;
-  width: 250px;
-}
-
-div.gallery_ads:hover {
-  border: 1px solid #777;
-}
-
-div.gallery_ads img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc_ads {
-  color: #fafafa;
-  padding: 15px;
-  text-align: center;
-  background: rgb(247, 78, 72);
-}
 
 
 
