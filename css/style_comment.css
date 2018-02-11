@@ -1,7 +1,13 @@
-
-
-
-
+#ads_left {
+           
+  padding: 25px;
+  background: url(https://ld-channel.github.io/web/ads_img/t-shirt-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:248px;
+   height:300px;
+  
+}
 
 
 /*Footer*/
@@ -34,6 +40,7 @@ div.gallery_ads1 {
   border: 1px solid #ccc;
   float: left;
   width: 250px;
+
 }
 
 div.gallery_ads1:hover {
@@ -43,6 +50,7 @@ div.gallery_ads1:hover {
 div.gallery_ads1 img {
   width: 100%;
   height: auto;
+
 }
 
 div.desc_ads1 {
