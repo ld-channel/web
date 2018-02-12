@@ -1,0 +1,16 @@
+update video
+
+1-save photo
+2-get embed link youtube
+3-add home page photo and link in home page and category page
+4-create html video-new
+5-update share button
+
+=================================
+
+update Ads 
+
+1-change css file image and content  
+2-create html ads-new page in ads category
+3-create html product-view-new
+
