@@ -1,4 +1,9 @@
 
+/*View Image*/
+
+
+
+
 /*Ads left*/
 div.gallery_ads1 {
   margin: 5px;
@@ -27,14 +32,14 @@ div.desc_ads1 {
 }
 
 div.desc_ads1::after {
-  content: "ស្អាតដូចរូប💯💯💯អាចកម្មង់បានចា៎👏👏 098739148"; 
+  content: "កម្មង់ភ្លាម បានភ្លាមទើបចេញ ជាគូរសេ្នហ៏ក៏បាន ម្នាក់ឯងក៏បាន ☎️098739148"; 
   font-weight: bold;
 }
 
 #ads_left {
            
   padding: 25px;
-  background: url(https://ld-channel.github.io/web/ads_img/t-shirt-1.jpg);
+  background: url(../ads_img/t-shirt-short-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width:248px;
@@ -47,7 +52,7 @@ div.desc_ads1::after {
 
 
 
-/*Ads right*/
+/*Ads right1*/
 div.gallery_ads {
   margin: 5px;
   border: 1px solid #ccc;
@@ -79,7 +84,7 @@ div.desc_ads::after {
 #ads_right {
            
 
-  background: url(https://ld-channel.github.io/web/ads_img/t-shirt-1.jpg);
+  background: url(../ads_img/t-shirt-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width:248px;
@@ -94,6 +99,45 @@ div.desc_ads::after {
 
 
 
+/*Ads right2*/
+div.gallery_ads_right2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 250px;
+}
+
+div.gallery_ads_right2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery_ads_right2 img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc_ads_right2 {
+  color: #fafafa;
+  padding: 15px;
+  text-align: center;
+  background: rgb(247, 78, 72);
+}
+
+div.desc_ads_right2::after {
+  content: "🌸 កាបូបមកដល់ក្នុងស្តុកថ្មី មានគ្រប់ពណ៌ 😍គុណភាពខ្ពស់ សាច់ស្អាត 📲098739148"; 
+  font-weight: bold;
+}
+
+#ads_right2 {
+           
+
+  background: url(../ads_img/bag-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:248px;
+   height:300px;
+  
+}
 
 
 
