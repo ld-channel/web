@@ -237,9 +237,10 @@
 
 
                     </br>
-                    <a role="button" href="../files/Delete All Files in temp and Prefetch.bat" rel="ignore">Download</a>
+                    <a role="button" onclick="clickCounter()" href="../files/Delete All Files in temp and Prefetch.bat" rel="ignore">Download</a>
 
-
+                    </br>
+                    <div id="result"></div>
 
 
 
@@ -346,6 +347,28 @@
 
     <!-- Bootstrap 3.3.7 -->
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+
+
+    <!-- count download -->
+    <script>
+        function clickCounter() {
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = "Download Count: " + localStorage.clickcount;
+            } else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+    </script>
+
+
+
+
 
 
 
